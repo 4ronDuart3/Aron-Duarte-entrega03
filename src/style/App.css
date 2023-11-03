@@ -106,7 +106,7 @@ p{
     }
 
     body{
-        zoom: 45%;
+        zoom: 40%;
     }
 
     .frame26{
@@ -116,6 +116,6 @@ p{
     .devMobile{
         display: flex;
         margin-bottom: 4vh;
-        max-width: 187vw;
+        max-width: 217vw;
     }
 }

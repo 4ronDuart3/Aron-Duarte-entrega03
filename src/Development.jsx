@@ -6,7 +6,7 @@ function Development(pops) {
   <article className="frame6">
     <img
       className="frame6__img"
-      src="imagenes/portfolio 1.jpg"
+      src="public/portfolio 1.jpg"
       alt="portfolio"
     />
     <section className="frame5__0">

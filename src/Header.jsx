@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
     <header id="header">
-  <img src="imagenes/Rectangle 1.jpg" className="header__img" />
+  <img src="public/Rectangle 1.jpg" className="header__img" />
   <article className="frame5">
     <section className="frame4__header">
       <article className="frame1">
@@ -15,13 +15,13 @@ function Header() {
       </article>
       <article className="frame1__2">
         <article className="frame1__icons">
-          <img className="icon" src="icons/envelope.png" alt="envelope" />
+          <img className="icon" src="public/envelope.png" alt="envelope" />
           <p className="icon__p">
             <strong>ejemplo@mail.com</strong>
           </p>
         </article>
         <article className="frame1__icons">
-          <img className="icon" src="icons/phone.png" alt="phone" />
+          <img className="icon" src="public/phone.png" alt="phone" />
           <p className="icon__p">
             <strong>+54 9 11-1234-5678</strong>
           </p>

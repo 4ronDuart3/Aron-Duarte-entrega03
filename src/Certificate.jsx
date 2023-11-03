@@ -8,7 +8,7 @@ function Certificate(){
   <div className="frame1__certificates">
     <article className="frame14">
       <img
-        src="imagenes/diploma_demo 1.jpg"
+        src="public/diploma_demo 1.jpg"
         alt="diploma"
         className="frame14__img"
       />
@@ -17,7 +17,7 @@ function Certificate(){
     </article>
     <article className="frame14">
       <img
-        src="imagenes/diploma_demo 1.jpg"
+        src="public/diploma_demo 1.jpg"
         alt="diploma"
         className="frame14__img"
       />
@@ -28,7 +28,7 @@ function Certificate(){
     </article>
     <article className="frame14">
       <img
-        src="imagenes/diploma_demo 1.jpg"
+        src="public/diploma_demo 1.jpg"
         alt="diploma"
         className="frame14__img"
       />

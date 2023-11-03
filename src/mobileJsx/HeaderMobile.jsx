@@ -3,7 +3,7 @@ import "../style/header.css"
 function HeaderMobile(){
     return(<><section id="header__mobile">
     <header className="header-frame6">
-      <img className="header__img" src="imagenes/Rectangle 1.jpg"/>
+      <img className="header__img" src="public/Rectangle 1.jpg"/>
       <article className="header__div-frame5">
         <article className="header__div-frame4">
           <article className="header__div-frame1">
@@ -12,11 +12,11 @@ function HeaderMobile(){
           </article>
           <article className="header__div-frame1__2">
             <article className="frame1__2-png">
-              <img id="png__header" src="icons/envelope.png" alt="envelope" />
+              <img id="png__header" src="public/envelope.png" alt="envelope" />
               <strong> ejemplo@mail.com</strong>
             </article>
             <article className="frame1__2-png">
-              <img id="png__header" src="icons/phone.png" alt="phone" />{" "}
+              <img id="png__header" src="public/phone.png" alt="phone" />{" "}
               <strong> +54 9 11-1234-5678</strong>
             </article>
           </article>

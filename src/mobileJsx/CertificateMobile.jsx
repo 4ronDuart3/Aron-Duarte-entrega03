@@ -7,7 +7,7 @@ function CertificateMobile(){
   <article className="certidicate__mobile_frame14">
     <img
       className="certidicate__mobile_img"
-      src="imagenes/diploma_demo 1.jpg"
+      src="public/diploma_demo 1.jpg"
       alt="diploma"
     />
     <article className="certidicate__mobile_frame14_p">

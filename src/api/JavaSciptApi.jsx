@@ -26,7 +26,7 @@ const JavaSciptApi = () => {
   <article className="frame6Api">
     <img
       className="frame6__img"
-      src="imagenes/portfolio 1.jpg"
+      src="public/portfolio 1.jpg"
       alt="portfolio"
     />
     <section className="frame5__0">

@@ -1,0 +1,125 @@
+#proyects{
+    display: flex;
+    padding: 2.3121387283236996vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4.624277456647399vh;
+    border-radius: 2.3121387283236996vh;
+    background: #FFF;
+    width: 96%;
+}
+
+.proyects__p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 3.468208092485549vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.container__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3121387283236996vh;
+}
+
+.btn{
+    border-radius: var(--radius-12, 0.75rem);
+    border: 1px solid var(--gray2, #4F4F4F);
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    padding: var(--radius-12, 0.75rem) 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+}
+
+.btnBlue{
+    border-radius: var(--radius-12, 0.75rem);
+    background: var(--blue, #2F80ED);
+    border: 1px solid var(--blue, #2F80ED);
+    display: flex;
+    padding: var(--radius-12, 0.75rem) 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.btnPBlue{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 225%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btnBlue:hover{
+    border-radius: var(--radius-12, 0.75rem);
+    border: 1px solid var(--gray2, #4F4F4F);
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    padding: var(--radius-12, 0.75rem) 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+}
+
+.btnBlue:hover p{
+    color: var(--gray2, #4F4F4F);
+}
+
+#btnDemo:hover p{
+    color: #2F80ED;
+}
+
+.btnP{
+    color: var(--gray2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 225%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border-radius: var(--radius-12, 0.75rem);
+    background: var(--blue, #2F80ED);
+    border: 1px solid var(--blue, #2F80ED);
+}
+
+.btn:hover p{
+    color: #FFF;
+}
+
+.proyects__div{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.frame27{
+    gap: 2.3121387283236996vh;
+    margin-right: 3.7572254335260116vh;
+}
+
+@media screen and (max-width: 1080px){
+    
+    #proyects{
+        align-items: stretch;
+    }
+
+    .proyects{
+        margin-bottom: 3vh;
+    }
+}

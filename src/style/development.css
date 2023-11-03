@@ -1,0 +1,315 @@
+#development{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  1.4450867052023122vh;
+    align-self: stretch;
+    border-radius: var(--radius-12, 0.75rem);
+    background: #FFF;
+    width: 65%;
+
+}
+
+#developmentMobile{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:  1.4450867052023122vh;
+    align-self: stretch;
+    border-radius: var(--radius-12, 0.75rem);
+    background: #FFF;
+    width: 95%;
+}
+
+.frame6{
+    display: flex;
+    height: 93.20809248554913vh;
+    padding: 2.3121387283236996vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  1.4450867052023122vh;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    width: 68vw;
+
+}
+
+.frame6Api{
+    display: flex;
+    height: 93vh;
+    padding: 2.3vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4450867052023122vh;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    width: 43vw;
+}
+
+.frame6__img{
+    background-repeat: no-repeat;
+    max-height: 66%;
+    max-width: 100%;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+}
+
+.frame5__0{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;  
+    justify-content: space-around;  
+}
+
+.frame4{
+    display: flex;
+    padding: 1.1560693641618498vh 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.frame4__p02{
+    height: 2.746820809248555vh;
+    color: var(--gray-2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.frame4__p03{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 3.468208092485549vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.frame5__p{
+    align-self: stretch;
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 2.601156069364162vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.frame1__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#btnDemo{
+    display: flex;
+    padding: 1.7341040462427746vh 5.60650289017341vh 1.5895953757225434vh 5.665173410404624vh;
+    align-items: center;
+    border-radius: var(--radius-12, 1.7341040462427746vh);
+    cursor: pointer;
+}
+
+#aBtn {
+    text-decoration: none;
+    color: #2F80ED;
+    
+}
+
+#btnDemo:hover{
+    border: 0.14566473988439305vh solid var(--blue, #2F80ED);
+    background: rgba(255, 255, 255, 0.00);
+}
+
+#btnDemo:hover a{
+    color: #2F80ED
+}
+
+#btnDemo p{
+    font-family: Montserrat;
+    font-size: 2.601156069364162vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.btnPBlue a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btnP a{
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+#btnCode{
+    display: flex;
+    padding: 1.7341040462427746vh 5.60650289017341vh 1.5895953757225434vh 5.665173410404624vh;
+    align-items: center;
+    border-radius: var(--radius-12, 1.7341040462427746vh);
+    border: 0.14566473988439305vh solid var(--blue, #2F80ED);
+    background: rgba(255, 255, 255, 0.00);
+    cursor: pointer;
+}
+
+#btnCode:hover{
+    border-radius: var(--radius-12, 0.75rem);
+    background: var(--blue, #2F80ED);
+    border: 1px solid var(--blue, #2F80ED);
+}
+
+#btnCode p{
+    color: var(--blue, #2F80ED);
+    font-family: Montserrat;
+    font-size: 2.601156069364162vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+#btnCode:hover a{
+    color: #FFF;
+}
+
+.frame5__p__mobile{
+    display: none;
+}
+
+.proyectoView{
+    display: flex;
+}
+
+.projectframe{
+    border-radius: var(--radius-12, 0.75rem);
+    padding: 25px;
+    display: flex;
+    width: 40vw;
+    height: 97vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    background: #FFF;
+}
+
+.proyectsImg{
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: var(--radius-12, 0.75rem);
+    border: 1px solid var(--gray3, #C4C4C4);
+    background: url(/imagenes/portfolio\ 1.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    max-height: 46%;
+}
+
+.projectPes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.projectHastags{
+    color: var(--gray2, #4F4F4F);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 140%;
+    margin-bottom: 3%;
+}
+
+.projectTitulo{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 220%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3%;
+}
+
+.projectTxt{
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 167%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btnProjects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24%;
+}
+
+.btnProject{
+    border-radius: var(--radius-12, 0.75rem);
+    border: 1px solid var(--blue, #2F80ED);
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    padding: 8% 31%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.txtBtnProyect{
+    color: var(--blue, #2F80ED);
+    font-family: Montserrat;
+    font-size: 185%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btnProject:hover{
+    border-radius: var(--radius-12, 0.75rem);
+    background: var(--blue, #2F80ED);
+}
+
+.btnProject:hover p{
+    color: #FFF;
+}
+
+@media screen and (max-width: 1080px){
+    #developmentPC{
+        display: block;
+        width: 101%;
+        padding-bottom: 5vh;
+    }
+
+    #developmentMobile{
+        display: flex;
+        margin-bottom: 3vh;
+    }
+
+    .frame6{
+        height: 100%;
+        width: 100%;
+    }
+
+    .frame6Api{
+        width: 95%;
+        margin-bottom: 1vh;
+    }
+}

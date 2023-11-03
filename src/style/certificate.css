@@ -1,0 +1,155 @@
+#certificates{
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;  
+    padding-top: 2.3121387283236996vh;
+    padding-left: 2.3121387283236996vh;
+}
+
+.certificates__p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 3.468208092485549vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2.3121387283236996vh;
+}
+
+.frame1__certificates{
+    display: flex;
+    height: 90.40462427745665vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.3121387283236996vh;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2.3121387283236996vh
+}
+
+.frame14{
+    width: 48.554913294797686vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.1560693641618498vh;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+    border: 1px solid var(--gray-3, #C4C4C4);
+    padding:  1.271676300578035vh;
+}
+
+.certificates__img{
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+    border: 1px solid var(--gray-3, #C4C4C4);
+    background: url(/Alfa/imagenes/diploma_demo\ 1.jpg), lightgray 50% / contain no-repeat;
+}
+
+.frame14__img{
+    display: flex;
+    padding: 0.5780346820809249vh;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8670520231213873vh;
+    align-self: stretch;
+}
+
+.frame14__p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.frame14__p02{
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size:  2.023121387283237vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer{
+    display: none;
+}
+
+#certidicate__mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .certificates__mobile{
+        display: none;
+    }
+
+    #certidicate__mobile{
+        display: flex;
+        width: 95%;
+        padding: 2.3121387283236996vh;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.3121387283236996vh;
+        border-radius: 1.7341040462427746vh;
+        background: #FFF;
+        margin-bottom: 5vh;
+    }
+
+    .certidicate__mobile_p{
+        color: var(--gray-2, #4F4F4F);
+        font-family: Montserrat;
+        font-size: 3.468208092485549vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .certidicate__mobile_frame14{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.468208092485549vh;
+        align-self: stretch;
+    }
+
+    .certidicate__mobile_img{
+        height: 40vh;
+        width: 100vh;
+        align-self: center;
+        border-radius: 1.7341040462427746vh;
+        background: url(../imagenes/diploma_demo\ 1.jpg);
+    }
+
+    .certidicate__mobile_frame14_p{
+        display: flex;
+        padding: 0.5780346820809249vh;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:  0.8670520231213873vh;
+        align-self: stretch;
+    }
+
+    .frame14_p001{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 2.3121387283236996vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .frame14_p002{
+        color: var(--gray, #828282);
+        font-family: Montserrat;
+        font-size: 2.023121387283237vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,39 @@
+.ResponsiveContaniner{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.divResponsiveApi{
+    display: none;
+}
+
+.divResponsiveApi.ver{
+    display: block;
+}
+
+.divJavaSciptApi{
+    display: none;
+}
+
+.divJavaSciptApi.ver02{
+    display: block;
+}
+
+.ReactApi{
+    display: none;
+}
+
+.ReactApi.ver03{
+    display: block;
+}
+
+@media screen and (max-width: 1080px){
+    .ResponsiveContaniner{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 0px;
+    }
+
+}

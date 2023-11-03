@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "proyect":[
+    {
+        "tikerRes":"#HTML #CSS #responsive",
+        "tikerJav":"#HTML #CSS #responsive #JavaScipt",
+        "tikerRea":"#HTML #CSS #responsive #JavaScipt #React",
+
+        "titleRes":"Responsivo",
+        "titleJav":"JavaScipt",
+        "titleRea":"React"
+    }
+]
+}

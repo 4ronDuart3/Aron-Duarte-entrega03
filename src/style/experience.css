@@ -1,0 +1,292 @@
+#experience{
+    display: flex;
+    height: 47.54450867052022vh;
+    padding: 2.3121387283236996vh;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.3121387283236996vh;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+}
+
+#experienceMobile{
+    display: none;
+    height: 47.54450867052022vh;
+    padding: 2.3121387283236996vh;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.3121387283236996vh;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+}
+
+.experience__p{
+    margin: 0;
+    color: var(--gray-2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 3.468208092485549vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experience__frame1{
+    display: flex;
+    padding: 0px 2.3121387283236996vh;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.frame13{
+    display: flex;
+    padding: 1.1560693641618498vh;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+    border: 0.14566473988439305vh solid var(--gray-3, #C4C4C4);
+}
+
+.frame15{
+    display: flex;
+    padding: 0.5780346820809249vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8670520231213873vh;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.experience__p02{
+    height: 19.653179190751445vh;
+    flex: 1 0 0;
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.frame14{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8670520231213873vh;
+}
+
+.experience__p03{
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 2.023121387283237vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.experience__p04{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+#experience{
+    display: flex;
+    height: 47.543352601156066vh;
+    padding: 2.3121387283236996vh;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.3121387283236996vh;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    flex-direction: column;
+}
+
+.experience__p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Montserrat;
+    font-size: 3.468208092485549vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experience__frame1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3121387283236996vh;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.experience__frame13{
+    display: flex;
+    padding: 1.1560693641618498vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3.468208092485549vh;
+    border-radius: 1.7341040462427746vh;
+    border: 1px solid var(--gray-3, #C4C4C4);
+    max-width: 37.98843930635838vh;
+    max-height: 33.94219653179191vh;
+}
+
+.experience__frame15{
+    display: flex;
+    padding: 0.5780346820809249vh;
+    justify-content: center;
+    align-items: center;
+    gap:  0.8670520231213873vh;
+}
+
+.experience__p013{
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 25vh;
+    height: 19.653179190751445vh;
+}
+
+.experience__frame14{
+    display: flex;
+    padding: 0.5780346820809249vh;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.8670520231213873vh;
+    flex-wrap: wrap;
+}
+
+.frame14__p03{
+    color: var(--gray, #828282);
+    font-family: Montserrat;
+    font-size: 2.023121387283237vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.frame14__p04{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.3121387283236996vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#experience__mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1080px){
+    #experience{
+        display: none;
+    }
+
+    #experience__mobile{
+        display: flex;
+        height: 47.543352601156066vh;
+        width: 95%;
+        padding: 2.3121387283236996vh;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.3121387283236996vh;
+        border-radius: 1.7341040462427746vh;
+        background: #FFF;
+        margin-bottom: 5vh;
+    }
+
+    .experience__mobile__p{
+        color: var(--gray-2, #4F4F4F);
+        font-family: Montserrat;
+        font-size: 3.468208092485549vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .experience__mobile__frame1{
+        display: flex;
+        width: 66.76300578034682vh;
+        padding-left: 20%;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .experience__mobile__frame13{
+        display: flex;
+        padding: 1.1560693641618498vh;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1.7341040462427746vh;
+        border: 1px solid var(--gray-3, #C4C4C4);
+    }
+
+    .experience__mobile__frame15{
+        display: flex;
+        padding: 0.5780346820809249vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8670520231213873vh;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .experience__mobile__p02{
+        height: 19.653179190751445vh;
+        flex: 1 0 0;
+        color: var(--gray, #828282);
+        font-family: Montserrat;
+        font-size: 2.5vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .experience__mobile__frame14{
+        display: flex;
+        padding: 0.5780346820809249vh;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8670520231213873vh;
+    }
+
+    .experience__mobile__p03{
+        color: var(--gray, #828282);
+        font-family: Montserrat;
+        font-size: 2.023121387283237vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .experience__mobile__p04{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 2.3121387283236996vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}      

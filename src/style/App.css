@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background: var(--bg, #F3EBEB);
+    gap: 3.468208092485549vh;
+    display: grid;
+    padding: 2.3121387283236996vh 4.624277456647399vh;
+    zoom: 67%;
+}
+
+p{
+    margin: 0px;
+}
+
+.frame24{
+    display: grid;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3.5vh;
+}
+
+.frame25{
+    display: grid;
+    gap: 3.468208092485549vh;
+    width: 100%;
+    height: 100%;
+}
+
+.skills{
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    width: 100%;
+}
+
+.certificados{
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    width: 100%;
+    height: 99.71098265895954vh;
+}
+
+.frame26{
+    gap: 3.468208092485549vh;
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+
+.development{
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    width: 100%;
+    height: 93.20809248554913vh;
+    gap: 1.4450867052023122vh;
+}
+
+.experience{
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    gap: 2.3121387283236996vh;
+    width: 100%;
+    height: 47.543352601156066vh;
+}
+
+.proyects{
+    width: 100%;
+    border-radius: 1.7341040462427746vh;
+    background: #FFF;
+    margin-bottom: 3vh;
+}
+
+.frame27{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.devContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.devMobile{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .frame24{
+        grid-template-columns: auto;
+        gap: 0px;
+        margin-bottom: 5vh;
+    }
+
+    .frame27{
+        display: none;
+    }
+
+    .frame4{
+        padding: 4vh 0px;
+    }
+
+    body{
+        zoom: 45%;
+    }
+
+    .frame26{
+        display: none;
+    }
+
+    .devMobile{
+        display: flex;
+        margin-bottom: 4vh;
+        max-width: 187vw;
+    }
+}
